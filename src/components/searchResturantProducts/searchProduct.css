@@ -1,0 +1,16 @@
+.custom-heading-position {
+  position: static !important;
+  /* width: 99.5% !important; */
+  width: auto;
+  box-sizing: border-box;
+}
+
+.menulist-no-product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+  font-weight: 400;
+  color: #978585;
+}

@@ -1,0 +1,42 @@
+.cart-coupons {
+  margin-top: 1rem;
+  /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+  height: 3rem;
+  width: 100%;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background-color: #f5f5f5;
+}
+
+.cart-coupons-left {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.cart-coupons-icon {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.coupon-icon {
+  height: 100%;
+}
+
+.cart-coupon-description {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  width: 100%;
+  margin: 15px 0px 5px 4px;
+}
+
+.cart-coupons-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+}

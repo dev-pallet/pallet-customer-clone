@@ -1,0 +1,50 @@
+/* left align content & align-items center */
+.content-left {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center;
+  gap: 10px;
+}
+/* center align content */
+.content-center {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 10px;
+}
+/* center align justify content right */
+.content-center-right {
+  display: flex !important;
+  justify-content: flex-end !important;
+  align-items: center !important;
+  gap: 10px;
+}
+/* center align content with space-between */
+.content-space-between {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+/* pin input otp  */
+.pincode-input-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+.pincode-input-text {
+  padding: 0 !important;
+  margin: 20px 3px !important;
+  text-align: center;
+  /* border: 1px solid gainsboro !important; */
+  border-radius: 0.7rem;
+  background: transparent;
+  width: 40px !important;
+  font-size: 25px !important;
+  height: 55px;
+  /* gap: "10px", */
+}
+.pincode-input-text:focus {
+  outline: none;
+  box-shadow: none;
+}

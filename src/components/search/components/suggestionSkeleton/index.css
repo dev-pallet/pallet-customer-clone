@@ -1,0 +1,14 @@
+.skeleton-suggestion-item {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.skeleton-suggestion-description {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  width: 100%;
+}

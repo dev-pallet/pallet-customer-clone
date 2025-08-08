@@ -1,0 +1,11 @@
+.btn{
+    margin:.5rem 1rem !important;
+    /* padding: .2rem .5rem; */
+    color:'#fff' !important;
+    font-size: 14 !important;
+    font-weight: 700 !important;
+    background-color: #0f8241 !important;
+}
+.btn:hover{
+    background-color: #0f8241 !important;
+}

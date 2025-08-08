@@ -1,0 +1,21 @@
+.not-serviceable {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  background-color: white;
+  border-radius: 1rem;
+  width: 100%;
+  min-height: 60vh;
+  /* margin-top: 7rem; */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.unreachable-image {
+  height: 14rem;
+  width: 14rem;
+}
+
+.not-serviceable-img {
+  height: 100%;
+}

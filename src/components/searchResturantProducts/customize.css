@@ -1,0 +1,106 @@
+.customize-heading {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  border-bottom: 1px solid #d3d3d3b3;
+
+  box-shadow: 0 2px 6px rgb(187 178 157 / 40%);
+  border-radius: 4px;
+}
+.customize-title-image-wrapper {
+  padding-left: 12px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+}
+.customize-heading-title {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+.additional-note-title {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+/* .customize-product-qty-counter {
+  background-color: black !important;
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  position: relative;
+  right: 0.5rem !important;
+  top: 0.2rem !important;
+  gap: 10px;
+  color: white;
+  padding: 6px;
+} */
+.customize-product-qty-counter {
+  /* background-color: rgb(173, 26, 25); */
+  width: 6rem !important;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px !important;
+  position: relative;
+  right: 0.5rem !important;
+  top: 0.2rem !important;
+  gap: 10px;
+  color: #000000;
+  padding: 2px 4px;
+  vertical-align: middle;
+  border: 1px solid #e6e6e6;
+}
+.added-qty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.product-quantity {
+  color: #000000 !important;
+  font-size: 0.9rem !important;
+}
+.addon-title-data {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: black;
+}
+.checkbox-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+.checkbox-inner-data {
+  gap: 12px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.addon-button-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  padding: 7px;
+  border-radius: 9px;
+  margin-top: 13px;
+}
+.button-add-on {
+  color: white !important;
+  background: black !important;
+  font-weight: 700 !important;
+  width: 60%;
+}

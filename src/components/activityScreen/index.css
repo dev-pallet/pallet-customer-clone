@@ -1,0 +1,18 @@
+.activity-screen {
+  height: 100%;
+  height: 100vh;
+  background-color: #f4f7fc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.map-image {
+  height: 12rem;
+  width: 12rem;
+}
+
+.map-gif {
+  height: 100%;
+}

@@ -1,0 +1,135 @@
+.wrapper-input-box {
+  padding: 6px;
+  border-radius: 0.5rem !important;
+  display: flex;
+  align-items: center;
+  color: lightgray;
+  background: #fff;
+  transition: all 0.3s ease;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px !important;
+  margin-top: 0px !important;
+  position: relative;
+}
+
+.search-icon {
+  /* color: lightgray; */
+  color: rgb(173, 26, 25);
+  font-size: 1.2rem;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.search-wrapper {
+  position: relative;
+  width: 300px;
+}
+
+.search-input {
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+.search-input::placeholder {
+  color: #999;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+.order-item-img-box {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  /* margin-right: 20px; */
+}
+
+.order-item-img-box2 {
+  width: 30%;
+  /* height: 60px; */
+  height: 5rem;
+  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px !important; */
+}
+
+.order-item-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.order-balance-count {
+  /* width: 70px; */
+  /* padding: 14px 0; */
+  width: 30%;
+  /* padding: 14px 3px; */
+  border: 2px solid rgb(12, 121, 36);
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #faf9fe !important;
+  border-radius: 0.5rem;
+}
+
+.order-card-total {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.order-card-stat {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-card-button {
+  color: white;
+  background-color: rgb(12, 121, 36) !important;
+  font-size: 8px !important;
+  width: 120px !important;
+}
+
+.order-sub-card {
+  /* background-color: whitesmoke; */
+  background-color: white;
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order-cub-card-box {
+  padding: 15px 10px;
+  background-color: white;
+}
+
+.order-card-main {
+  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px !important; */
+  border-radius: 1rem !important;
+  margin-bottom: 1rem;
+}
+
+/* .order-list-count{
+    margin-top: 5px !important;
+} */
+
+.order-status-badge {
+  padding: 3px 5px !important;
+  font-size: 10px !important;
+  color: white !important;
+  border-radius: 0.25rem !important;
+}
+
+.defaultOrderColor {
+  background-color: #607d8b;
+}
+.deliveredOrder {
+  background-color: #4caf50;
+}
+.cancelledOrder {
+  background-color: #f44336;
+}

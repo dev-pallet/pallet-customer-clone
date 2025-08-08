@@ -1,0 +1,19 @@
+.delivery-slot-root-div {
+  padding: 10px;
+  /* background-color: #ffffff; */
+  margin: -7px 0px;
+  /* border-radius: 1rem; */
+}
+.select-time-slot-div {
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 5px;
+}
+.dropdown-icon {
+  width: auto !important;
+  height: 16px !important;
+  color: grey !important;
+  transform: rotate(90deg) !important;
+  margin-top: 3px !important;
+}

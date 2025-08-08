@@ -1,0 +1,28 @@
+/* left align content & align-items center */
+.content-left{
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    gap: 10px;  
+  }
+  /* center align content */
+  .content-center {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 10px;
+  }
+  /* center align justify content right */
+  .content-center-right{
+    display: flex !important;
+    justify-content: flex-end !important; 
+    align-items: center !important;
+    gap: 10px;
+  }
+  /* center align content with space-between */
+  .content-space-between{
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+  }
+

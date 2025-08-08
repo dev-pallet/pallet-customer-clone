@@ -1,0 +1,19 @@
+.wallet-balance-box {
+    display: flex;
+    justify-content: center;
+}
+
+.wallet-image {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.wallet-gift-card {
+    background-color: lightgray;
+    border-radius: .5rem !important;
+    padding: 3px 7px 3px 7px !important;
+    margin: 10px !important;
+
+}

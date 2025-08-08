@@ -1,0 +1,29 @@
+.bg_img {
+  width: 100vw;
+  height: 100vh;
+  /* z-index: 0; */
+  background-image: url("https://www.fooddudes.ie/wp-content/uploads/2020/04/vegetable_FoodDudess.jpg");
+}
+
+/* .div_2 {
+  position: absolute;
+  bottom: 0;
+  background-color: #ffffff;
+  width: calc(100vw * 2);
+  left: -50%;
+  border-radius: 50% 50% 0 0;
+  height: 52vh;
+} */
+.inner_div_2 {
+  position: relative;
+  padding: 20px 30%;
+  text-align: center;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%; /* Adjust the position of your content */
+  transform: translate(-50%, -50%);
+  /* color: white;  */
+}

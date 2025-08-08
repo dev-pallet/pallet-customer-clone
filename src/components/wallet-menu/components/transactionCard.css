@@ -1,0 +1,36 @@
+.transaction-card {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 1rem;
+  gap: 10px;
+  margin: 10px 0px;
+  background-color: #ffffff;
+}
+.rupeeIcon { 
+  font-size: 12px !important;
+}
+.refundIcon {
+  background: #e7f3ec !important;
+  color: #0f8241 !important;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+}
+.debitIcon {
+  background: #fef2f2 !important;
+  color: #f20411 !important;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+}
+.refundedColor {
+  color: #0f8241 !important;
+}
+.debitedColor {
+  color: #f20411 !important;
+}

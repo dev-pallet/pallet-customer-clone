@@ -1,0 +1,18 @@
+.order-processing {
+  padding: 0.5rem;
+  background-color: #f4f7fc;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.order-processing-loader {
+  height: 6rem;
+}
+
+.processing-loader {
+  height: 100%;
+}

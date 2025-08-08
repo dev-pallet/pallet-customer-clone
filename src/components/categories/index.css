@@ -1,0 +1,58 @@
+.categories-root-div {
+  background-color: #f4f7fc;
+}
+.categories-root-div::-webkit-scrollbar {
+  display: none;
+}
+.categories-listing {
+  padding: 1em;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  gap: 2.2em;
+}
+
+@media (max-width: 1024px) and (min-width: 801px) {
+  .categories-listing {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2em;
+  }
+}
+/* Tablets: 600px to 768px */
+@media (max-width: 860px) and (min-width: 800px) {
+  .categories-listing {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 768px) and (min-width: 600px) {
+  .categories-listing {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 599px) and (min-width: 540px) {
+  .categories-listing {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3px;
+  }
+}
+@media (max-width: 360px) and (min-width: 321px) {
+  .categories-listing {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3px;
+  }
+}
+@media (max-width: 480px) and (min-width: 320px) {
+  .categories-listing {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 4px;
+    gap: 6px;
+  }
+}
+/* Mobile devices: 320px to 480px */
+@media (max-width: 480px) and (min-width: 320px) {
+  .categories-listing {
+    grid-template-columns: repeat(4, 1fr);
+    padding: 4px;
+    gap: 6px;
+  }
+}

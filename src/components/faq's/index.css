@@ -1,0 +1,6 @@
+.plus-icon {
+    color: lightgray;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}

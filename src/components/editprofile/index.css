@@ -1,0 +1,28 @@
+.edit-profile-root-div {
+  height: 100vh;
+  /* overflow: hidden; */
+}
+
+.edit-profile-input {
+  width: 98%;
+  height: 30px;
+  border: 1.5px solid rgba(116, 115, 115, 0.2);
+  border-radius: 0.5rem !important;
+}
+
+.disabled-detail-box {
+  opacity: 0.5;
+}
+
+.edit-profile-button {
+  width: 96% !important;
+  height: 30px;
+  margin: 2% !important;
+  font-size: 8px !important;
+}
+
+.edit-profile-main {
+  /* padding: 2% !important; */
+  padding: 8px 16px !important;
+  line-height: 20px;
+}

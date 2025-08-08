@@ -1,0 +1,19 @@
+.menu-back-heading {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    /* margin-bottom: 100px; */
+    /* background-color: white !important; */
+    width: 100% !important;
+    z-index: 1000;
+    padding: 10px 0px 10px 10px;
+}
+
+.wishlist-div{
+    margin-right: 20px;
+    background-color: white;
+    padding: 0 3px;
+    border-radius: 50%;
+}

@@ -1,0 +1,34 @@
+.upi-container{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+.add-upi-container{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    padding:1rem;
+}
+.upi-app-card{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    margin:0.2rem 0;
+}
+.checkBoxRow{
+    display: flex;
+    flex:1;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.saved-vpa-card{
+    display: flex;
+    flex:1;
+    align-items: center;
+    justify-content: space-between;
+    padding:0.5rem;
+    margin:0.5rem;
+}

@@ -1,0 +1,67 @@
+.repeat-order-drawer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-family: sans-serif;
+  gap: 5px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 12px;
+}
+.addon-title-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.addon-title {
+  font-family: monospace;
+  font-weight: 500;
+  font-size: 17px;
+}
+.box-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+  min-width: 220px;
+}
+.box-container-quantity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: black; */
+  border-radius: 4px;
+  padding: 5px;
+  gap: 15px;
+  border: 1px solid #e6e6e6;
+}
+.add-btn-addon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  font-size: 14px;
+  font-weight: 700;
+  display: block;
+  margin: 0 auto;
+  margin-top: 16px;
+}
+.restro-product-image-addon {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+@media (max-width: 600px) {
+  /* .box-container {
+    flex-direction: column;
+    align-items: flex-start;
+  } */
+
+  .box-container-quantity {
+    margin-top: 8px;
+  }
+}

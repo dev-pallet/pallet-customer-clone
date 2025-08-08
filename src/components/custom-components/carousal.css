@@ -1,0 +1,89 @@
+/* Override styles for dots */
+.alice-carousel__dots {
+  position: absolute;
+  /* bottom: 20px; */
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.alice-carousel__dots-item {
+  width: 10px; /* Adjust the width as needed */
+  height: 10px; /* Adjust the height as needed */
+  margin: 0 5px; /* Adjust the margin as needed */
+  background-color: #333; /* Adjust the background color as needed */
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.alice-carousel__dots-item.active {
+  background-color: #fff; /* Change the color for the active dot */
+}
+
+.alice-carousel__dots-item:not(.__custom) {
+  width: 20px !important;
+  height: 6px !important;
+  cursor: pointer;
+  border-radius: 2px !important;
+  background-color: #e0e4fb;
+}
+
+.alice-carousel__dots-item:not(.__custom):not(:last-child) {
+  margin-right: 10px !important;
+}
+
+/* wrapper  */
+.alice-carousel__wrapper {
+  /* border-radius: 1rem; */
+  overflow: hidden;
+}
+
+.alice-carousel__wrapper img {
+  /* max-height: 500px !important; */
+  min-height: 300px !important;
+  width: 100%;
+  object-fit: cover;
+  /* margin-top: 201px; */
+  /* object-fit: contain; */
+}
+
+.alice-carousel__stage-item {
+  margin-top: 28px !important;
+}
+.home_banner_img {
+  min-height: 377px !important;
+}
+/* Tablets: 600px to 768px */
+@media (max-width: 768px) and (min-width: 600px) {
+  .alice-carousel__wrapper img {
+    min-height: 220px !important;
+  }
+}
+
+@media (max-width: 540px) and (min-width: 720px) {
+  .alice-carousel__wrapper img {
+    min-height: 220px !important;
+    /* margin-top: 210px !important; */
+  }
+}
+
+@media (max-width: 599px) and (min-width: 400px) {
+  .alice-carousel__wrapper img {
+    min-height: 186px !important;
+    margin-top: 0px !important;
+  }
+}
+
+/* Mobile devices: 320px to 480px */
+@media (max-width: 399px) and (min-width: 320px) {
+  .alice-carousel__wrapper img {
+    min-height: 160px !important;
+    margin-top: 0px !important;
+  }
+}

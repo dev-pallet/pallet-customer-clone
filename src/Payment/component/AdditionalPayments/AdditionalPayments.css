@@ -1,0 +1,20 @@
+.additional-methods {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* border-bottom: 2px rgb(213, 209, 209) dotted; */
+  /* margin:.2rem 0; */
+  padding: 0.5rem;
+}
+.additional-method-icon {
+  display: flex;
+  /* flex:0.1; */
+}
+.additional-method-text-view {
+  display: flex;
+  flex: 0.8;
+  flex-direction: column;
+  margin: 0 0.3rem;
+}

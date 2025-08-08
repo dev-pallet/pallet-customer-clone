@@ -1,0 +1,17 @@
+.non-logged-in {
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  height: 7rem;
+  width: 96%;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.non-logged-in-details {
+  margin-left: 1rem !important;
+}

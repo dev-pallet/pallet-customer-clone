@@ -1,0 +1,22 @@
+.address-book-card{
+  display: flex;
+  justify-content: space-between;
+  /* padding: .5rem; */
+  padding: 0.5rem 0px;
+  border-radius:0.8rem !important
+}
+
+.address-book-list-head{
+display: flex;
+justify-content: space-between;
+background-color: whitesmoke;
+}
+
+.edit-icon-address{
+color: rgb(12, 121, 36) !important;
+}
+
+.delete-icon-address{
+color:#dc5454 !important;
+padding-right: 5px;
+}

@@ -1,0 +1,13 @@
+.order-details-root-div {
+  background-color: #f4f7fc;
+  /* height: 100vh; */
+  padding: 0.5rem;
+}
+
+.order-details-card,
+.order-details-shipping-address,
+.order-details-billing-address {
+  padding: 8px;
+  border-radius: 1rem;
+  background-color: #ffffff;
+}

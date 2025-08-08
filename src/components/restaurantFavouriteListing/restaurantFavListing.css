@@ -1,0 +1,136 @@
+.fav-listing-container {
+  padding: 16px;
+  /* max-width: 500px; */
+  margin: auto;
+  font-family: sans-serif;
+  margin-top: 29px;
+}
+
+.fav-header {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 16px;
+  margin-bottom: 12px;
+}
+
+.filters {
+  display: flex;
+  gap: 8px;
+}
+
+.filter-btn {
+  padding: 8px 16px;
+  border: 1px solid rgb(173, 26, 25);
+  background: white;
+  color: rgb(173, 26, 25);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.filter-btn.active {
+  background: rgb(173, 26, 25);
+  color: white;
+}
+
+.fav-items {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.fav-card {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #ddd;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.fav-card-left {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  gap: 8px;
+}
+
+.food-type-indicator .veg-dot,
+.food-type-indicator .nonveg-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.veg-dot {
+  background-color: green;
+}
+
+.nonveg-dot {
+  background-color: red;
+}
+
+.item-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-name {
+  font-weight: bold;
+}
+
+.item-price {
+  color: #666;
+  font-size: 14px;
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(173, 26, 25);
+  border-radius: 4px;
+  /* overflow: hidden; */
+}
+
+.quantity-control button {
+  background: rgb(173, 26, 25);
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.quantity-control input {
+  width: 32px;
+  text-align: center;
+  border: none;
+}
+
+.restro-add-btn {
+  background: rgb(173, 26, 25);
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: rgb(173, 26, 25);
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.loader {
+  text-align: center;
+  padding: 20px;
+}
+
+.empty-state {
+  text-align: center;
+  color: #777;
+  padding: 20px;
+}

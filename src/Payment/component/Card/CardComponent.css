@@ -1,0 +1,39 @@
+.add-card-btn {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.payment-type {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 3.5rem  0 1rem 0;
+}
+
+.saved-card {
+    margin: 1rem;
+    padding: .5rem;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.cvv-pay-btn {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.add-card-container {
+    margin: 1rem;
+}
+
+.card-form-inputs {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    align-self: center;
+    margin: 0.2rem 0;
+}

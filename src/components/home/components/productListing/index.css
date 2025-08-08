@@ -1,0 +1,23 @@
+.chip_display_box {
+  display: flex;
+  overflow-x: scroll;
+  margin-bottom: 10px;
+}
+.chip_display_box::-webkit-scrollbar {
+  display: none;
+}
+.product-list-container {
+  /* height: calc(100vh - 48px); */
+  overflow: scroll;
+}
+.product-list-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* display: grid;
+padding: 1em;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+align-items: center;
+gap: 2.2em;
+grid-template-columns: repeat(4); */

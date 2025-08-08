@@ -1,0 +1,4 @@
+.MuiSnackbar-root{
+    z-index: 100000 !important;
+    margin-top: 60px !important;
+}

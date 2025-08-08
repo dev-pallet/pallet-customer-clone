@@ -1,0 +1,152 @@
+.restro-product-name {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0;
+  text-align: left;
+}
+.restro-product-description {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0;
+}
+.restro-product-image {
+  border-radius: 8px;
+  object-fit: contain;
+}
+.restro-product-header {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.restro-product-additional-info {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 10;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.restro-product-additional-info-box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  gap: 5px;
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+}
+.restro-product-additional-customization {
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+}
+.restro-product-description-info {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 130%;
+  letter-spacing: 0px;
+  color: #333333;
+}
+.customization-title {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 12;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.restro-product-customization-size-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 16px 16px 12px 15px;
+  gap: 12px;
+}
+.restro-customize-font {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.restro-product-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  border-top: 1px solid #e0e0e0;
+}
+.custom-title {
+  color: #91acc2;
+  font-family: sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+.add-cooking-title {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+/* .drawer-page {
+  margin: 10px !important;
+} */
+.detail-page-tooping {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+.details-radio-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.drawer-btn-wrapper-par {
+  /* bottom: 1rem !important; */
+  /* to show above the bottom notch and inside safe area */
+  bottom: calc(16px + env(safe-area-inset-bottom)) !important;
+  left: 1rem;
+  right: 1rem;
+  width: auto !important;
+  background-color: #ffffff;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+
+.drawer-qty-btn-par {
+  left: 0;
+  top: 0 !important;
+  flex: 1;
+  padding: 4px;
+}
+
+.drawer-add-btn-1 {
+  flex: 1.5;
+}
+
+/* Tablets: 600px to 768px */
+@media (max-width: 860px) and (min-width: 800px),
+  (max-width: 768px) and (min-width: 600px),
+  (max-width: 599px) and (min-width: 540px),
+  (max-width: 480px) and (min-width: 320px),
+  (max-width: 360px) and (min-width: 321px) {
+  .restro-product-image {
+    border-radius: 8px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 1024px) {
+  .restro-product-image {
+    object-fit: cover !important;
+  }
+}

@@ -1,0 +1,9 @@
+.guestLogin {
+  display: flex;
+  flex-direction: column;
+  /* gap:1rem; */
+  height: 90vh;
+  padding: 0.5rem;
+  background-color: #f4f7fc;
+  margin-top: 3rem;
+}

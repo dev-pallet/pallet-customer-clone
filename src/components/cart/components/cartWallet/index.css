@@ -1,0 +1,61 @@
+.cart-wallet {
+  margin-top: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  height: 3rem;
+  width: 100%;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background-color: #fff;
+}
+
+.cart-wallet-checked {
+  margin-top: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  height: 6rem;
+  width: 100%;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background-color: #fff;
+}
+
+.cart-wallet-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.cart-wallet-checked-details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.cart-wallet-left {
+  display: flex;
+  align-items: center;
+}
+
+.cart-wallet-left-loading {
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.5rem !important;
+}
+
+.cart-wallet-breakup {
+  display: flex;
+  flex-direction: column;
+}
+
+.wallet-amount-applicable,
+.wallet-amount-remaining {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

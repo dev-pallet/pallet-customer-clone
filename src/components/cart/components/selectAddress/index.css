@@ -1,0 +1,20 @@
+.select-address-div {
+  padding: 10px;
+  /* background-color: #f5f5f5; */
+  background-color: #f0f0f09c;
+  margin: 16px 0px;
+  border-radius: 8px;
+}
+.select-address-div-alt {
+  padding: 10px;
+  /* background-color: #f5f5f5; */
+  background-color: #f0f0f09c;
+  margin: 16px 0px;
+  border-radius: 1rem;
+  margin-top: 3rem;
+}
+.cart-delivery-address-wrapper {
+  background-color: #ffffff;
+  padding: 6px;
+  border-radius: 4px;
+}

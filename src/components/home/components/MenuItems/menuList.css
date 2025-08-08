@@ -1,0 +1,61 @@
+.menulist-name-text {
+  color: white !important;
+  font-size: 17px !important;
+  font-weight: 500 !important;
+  font-family: sans-serif !important;
+  padding: 12px;
+}
+.add-icon {
+  background-color: white;
+  border-radius: 50%;
+}
+.common {
+  display: flex;
+  align-items: center;
+}
+.menu-items-wrapper {
+  justify-content: center;
+  gap: 4px;
+}
+.menu-items-container {
+  justify-content: space-between;
+}
+.check {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.open-product-listing {
+  cursor: pointer;
+}
+.menulist-dialog-container {
+  position: absolute;
+  bottom: 130px;
+  right: 10px;
+  margin: 0;
+  width: 450px;
+  border-radius: 8px;
+  background-color: black;
+  color: white;
+}
+
+@media (max-width: 344px) and (min-width: 479px) {
+  .menulist-name-text {
+    color: white !important;
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    font-family: sans-serif !important;
+    padding: 7px;
+  }
+  .menulist-dialog-container {
+    position: absolute;
+    bottom: 130px;
+    right: 10px;
+    margin: 0;
+    width: 250px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+  }
+}

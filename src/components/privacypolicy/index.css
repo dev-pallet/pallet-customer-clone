@@ -1,0 +1,17 @@
+.twinleaves-logo {
+    width: 6rem !important;
+    margin: auto !important;
+    height: 6rem;
+}
+
+.twinleaves-logo-box {
+    width: 100%;
+    display: flex;
+}
+
+.aboutus-nav-links {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    color: rgb(7, 60, 13) !important;
+}

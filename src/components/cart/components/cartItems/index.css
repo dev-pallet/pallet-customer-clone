@@ -1,0 +1,30 @@
+.cart-items {
+  /* margin-top: 2rem; */
+  background-color: #ffffff;
+}
+
+.cart-items-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom: 1px solid #c8bcbc33;
+  padding: 6px;
+  /* position: absolute;
+  width: 100%;
+  top: 3.5rem; */
+}
+
+.cart-items-list {
+  /* margin-top: 1rem; */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 8px;
+  max-height: 282px;
+  overflow-y: scroll;
+}
+
+.cart-delete-icon {
+  color: rgb(173, 26, 25) !important;
+  font-size: 1rem !important;
+}
